@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #599CE7;
+}
+
+header {
+    font-size: 32px;
+    text-align: center;
+}
+
+input {
+    font-size: 22px;
+}
+
+.inputContainer {
+    background: #D7DDE4;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    position: absolute;
+    left: 37.5%;
+    top: 14%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 10px;
+    background: #D7DDE4;
+    font-size: 18px;
+    text-align: left;
+}
+
+#nameLabel {
+    padding-right: 10px;
+}
+
+#submitButton {
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#peopleList {
+    background-position: center;
+    width: 450px;
+    position: absolute;
+    left: 34%;
+    top: 35%;
+}

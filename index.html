@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Sign In Sheet</h1>
+        </header>
+        <div class="inputContainer">
+            <form class="enterInfo">
+                <label id="nameLabel" for="nameField">Enter name: </label>
+                <input id="nameField" type="text" name="nameField">
+                <br>
+                <br>
+                <label id="emailLabel" for="emailField">Enter email: </label>
+                <input id="emailField" type="text" name="emailField">
+                <br>
+                <br>
+                <button type="submit" id="submitButton" name="submitButton">Add to To Do List</button>
+            </form>
+        </div>
+
+        <div class="infoContainer">
+            <ul id="peopleList"></ul>
+        </div>
+
+        <script src="js/signupsheet.js"></script>
+    </body>
+</html>
